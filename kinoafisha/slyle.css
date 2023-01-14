@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	color:  bisque;
+	background-color: rgb(46, 12, 46);
+}
+
+.back{
+	
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	height: 80px;
+
+}
+
+header a{
+	color: bisque;
+	font-size: x-large;
+	margin: 0 20px;
+
+}
+
+.search{
+	margin-right: 20px;
+	padding: 0px 15px;
+	height: 40px;
+	border-radius: 25px;
+	font-size: 18px;
+	font-weight: 550;
+	color: gray;
+	
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	max-width: 1600px;
+	
+}
+
+.afisha{
+	margin: 10px;
+	width: 20%;
+	min-width: 280px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 5px 7px 10px rgb(20, 14, 14);
+	position: relative;
+	color: aliceblue;
+	
+}
+
+.darkened{
+	background-color: black;
+	opacity: 0.8;
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+
+.darkened:hover{
+	background-color: black;
+	opacity: 1;
+	cursor: pointer; ;
+}
+	
+.afisha img{
+	width: 100%;
+	height: 400px;
+	max-height: -webkit-fit-content;
+	max-height: -moz-fit-content;
+	max-height: fit-content;
+	
+}
+
+.afisha-text{
+	color: rgb(255, 255, 255);
+	padding: 10px 15px 10px 15px;
+	height: 100px;
+}
+
+.rating{
+	position: absolute;
+	background-color: black;
+	height: 30px;
+	width: 30px;
+	top: 10px;
+	left:10px;
+	border: 2px solid ;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.tags{
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+	cursor: pointer;
+}
+
+.tag{
+	border-radius: 16px;
+	background-color: yellowgreen;
+	padding: 5px 15px ;
+	margin: 3px;
+	text-align: center;
+	box-shadow: 2px 2px 8px rgb(20, 14, 14);
+}
+
+.tag-selectet{
+	background-color: rgb(255, 200, 0);
+}
+
+.yellow{
+	border: 2px solid yellow;
+}
+
+.red{
+	border: 2px solid red;
+}
+
+.green{
+	border: 2px solid green;
+}
+
+.pagination{
+	display: flex;
+	justify-content: center;
+	margin: 20px 30px;
+}
+.page{
+	margin: 5px;
+	padding: 4px;
+	border: 1px solid white;
+	min-width:50px;
+	text-align: center;
+	cursor: pointer;
+}
+#current{
+	font-weight: 700;
+}
+
+.disable{
+	cursor: not-allowed;
+	color: grey;
+	border: 1px solid grey;
+}
+
+.modal {
+	
+}
